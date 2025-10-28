@@ -155,7 +155,7 @@ const HeroSection = () => {
           className="font-fredoka text-4xl md:text-6xl lg:text-7xl mb-8 flex justify-center gap-3 flex-wrap"
           variants={containerVariants}
         >
-          {['P', 'r', 'a', 'n', 'j', 'a', 'l', 'i', ' ', 'T', 'a', 'm', 'b', 'e', '!'].map((letter, i) => (
+          {['D', 'u', 'r', 'g', 'a', ' ', 'A', 'd', 'h', 'i', 'k', 'a', 'r', 'i', '!'].map((letter, i) => (
             <motion.span
               key={i}
               className="shimmer-text"
