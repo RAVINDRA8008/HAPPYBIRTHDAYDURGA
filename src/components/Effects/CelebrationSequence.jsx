@@ -461,7 +461,7 @@ const CelebrationSequence = ({ onComplete }) => {
               repeat: 1,
             }}
           >
-            Jasmine! 💕
+            Meenakshi! 💕
           </motion.p>
 
           <motion.p
