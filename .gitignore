@@ -1,0 +1,21 @@
+# dependencies
+node_modules
+package-lock.json
+
+# production build
+dist
+
+# logs
+*.log
+
+# editor
+.vscode
+.idea
+
+# OS
+.DS_Store
+Thumbs.db
+
+# environment
+.env
+.env.local
