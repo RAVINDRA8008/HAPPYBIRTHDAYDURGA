@@ -461,7 +461,7 @@ const CelebrationSequence = ({ onComplete }) => {
               repeat: 1,
             }}
           >
-            Pranjali! 💕
+            Durga! 💕
           </motion.p>
 
           <motion.p
