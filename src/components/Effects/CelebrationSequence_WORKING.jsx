@@ -276,7 +276,7 @@ const CelebrationSequence = ({ onComplete }) => {
               repeat: 2,
             }}
           >
-            Durga! 💕✨
+            Jasmine! 💕✨
           </motion.p>
           
           {/* Sparkle bursts */}

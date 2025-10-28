@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import { calculateTimeSinceBirth } from '../../utils/timeHelpers';
 
 const AgeCounter = () => {
-  const birthDate = '2005-10-19';
+  const birthDate = '2002-10-29';
   const [timeData, setTimeData] = useState(calculateTimeSinceBirth(birthDate));
   const [changedValues, setChangedValues] = useState({});
 
@@ -131,7 +131,7 @@ const AgeCounter = () => {
             <span className="rainbow-shimmer">Since You Were Born</span>
           </h2>
           <p className="font-poppins text-lg md:text-xl font-semibold" style={{ color: '#6B1B6B' }}>
-            Since October 19, 2005, you've brightened the world for...
+            Since October 29, 2002, you've brightened the world for...
           </p>
         </motion.div>
 
