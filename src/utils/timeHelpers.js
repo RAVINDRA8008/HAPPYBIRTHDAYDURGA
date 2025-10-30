@@ -18,7 +18,6 @@ export const calculateTimeSinceBirth = (birthDate) => {
     months += 12;
   }
   
-  const totalDays = Math.floor((now - birth) / (1000 * 60 * 60 * 24));
   const hours = now.getHours();
   const minutes = now.getMinutes();
   const seconds = now.getSeconds();
@@ -26,7 +25,7 @@ export const calculateTimeSinceBirth = (birthDate) => {
   return {
     years,
     months,
-    totalDays,
+    totalDays: days, // Just the remaining days, not cumulative
     hours,
     minutes,
     seconds
